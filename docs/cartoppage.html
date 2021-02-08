@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charaset="UTF=8">
+        <title>HIS レンタカー予約サイト 車-DAKE-</title>
+        <meta name="description" content="HISレンタカー専門予約サイト「車-DAKE-」お客様のご希望に合わせて、最適なレンタカーをご提案いたします。">
+        <link rel="icon" type="image/ico" href="images/car_favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+      <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>車-DAKE-(首都圏版)</h1>
+        </div>
+
+        <div class="main1">
+            <img src="images/2279210_m.jpg" alt="車" border="0" align="right">
+            <h2>条件を入力してレンタカーを検索！</h2>
+            <h3>利用開始日</h3>
+                <select name="利用開始年">
+                    <option value="2021年">2021年</option>
+                    <option value="2022年">2022年</option>
+                </select>
+                <select name="利用開始月">
+                    <option value="1月">1月</option>
+                    <option value="2月">2月</option>
+                    <option value="3月">3月</option>
+                    <option value="4月">4月</option>
+                    <option value="5月">5月</option>
+                    <option value="6月">6月</option>
+                    <option value="7月">7月</option>
+                    <option value="8月">8月</option>
+                    <option value="9月">9月</option>
+                    <option value="10月">10月</option>
+                    <option value="11月">11月</option>
+                    <option value="12月">12月</option>
+                </select>
+                <select name="利用開始日">
+                    <option value="1日">1日</option>
+                    <option value="2日">2日</option>
+                    <option value="3日">3日</option>
+                    <option value="4日">4日</option>
+                    <option value="5日">5日</option>
+                    <option value="6日">6日</option>
+                    <option value="7日">7日</option>
+                    <option value="8日">8日</option>
+                    <option value="9日">9日</option>
+                    <option value="10日">10日</option>
+                    <option value="11日">11日</option>
+                    <option value="12日">12日</option>
+                    <option value="13日">13日</option>
+                    <option value="14日">14日</option>
+                    <option value="15日">15日</option>
+                    <option value="16日">16日</option>
+                    <option value="17日">17日</option>
+                    <option value="18日">18日</option>
+                    <option value="19日">19日</option>
+                    <option value="20日">20日</option>
+                    <option value="21日">21日</option>
+                    <option value="22日">22日</option>
+                    <option value="23日">23日</option>
+                    <option value="24日">24日</option>
+                    <option value="25日">25日</option>
+                    <option value="26日">26日</option>
+                    <option value="27日">27日</option>
+                    <option value="28日">28日</option>
+                    <option value="29日">29日</option>
+                    <option value="30日">30日</option>
+                    <option value="31日">31日</option>
+                </select>
+            <h3>利用日数</h3>
+                <select name="利用日数">
+                    <option value="6時間以下">6時間以下</option>
+                    <option value="日帰り(12時間程度)">日帰り(12時間程度)</option>
+                    <option value="1泊2日">1泊2日</option>
+                    <option value="2泊3日">2泊3日</option>
+                    <option value="3泊4日以上">3泊4日以上</option>
+                </select>
+            <h3>利用エリア</h3>
+                <select name="エリア">
+                    <option value="茨城">茨城</option>
+                    <option value="栃木">栃木</option>
+                    <option value="群馬">群馬</option>
+                    <option value="埼玉">埼玉</option>
+                    <option value="千葉">千葉</option>
+                    <option value="東京" selected>東京</option>
+                    <option value="神奈川">神奈川</option>
+                </select>
+            <h3>車種を選択(複数可)</h3>
+                <p><label><input type="checkbox" name="needs" value="軽・乗用車(5人乗り以下)"> 軽・乗用車(5人乗り以下)</label>
+                <label><input type="checkbox" name="needs" value="エコカー(電気自動車・ハイブリッドカーなど)"> エコカー(電気自動車・ハイブリッドカーなど)</label></p>
+                <p><label><input type="checkbox" name="needs" value="ミニバン・ワンボックスカー"> ミニバン・ワンボックスカー</label>
+                <label><input type="checkbox" name="needs" value="プレミアムカー(輸入車など)"> プレミアムカー(輸入車など)</label>
+                <label><input type="checkbox" name="needs" value="その他"> その他</label></p>
+            <h3>条件を選択(複数可)</h3>
+                <p><label><input type="checkbox" name="needs" value="禁煙車"> 禁煙車</label>
+                <label><input type="checkbox" name="needs" value="新車指定"> 新車指定</label>
+                <label><input type="checkbox" name="needs" value="車種指定"> 車種指定</label></p>
+                <p><label><input type="checkbox" name="needs" value="補償付き"> 補修付き</label>
+                <label><input type="checkbox" name="needs" value="カーナビ・ETC車載器付き"> カーナビ・ETC車載器付き</label></p>
+            <h3>キーワード</h3>
+            <p><textarea name="keywords" rows="1" placeholder="例：コンバーチブル"></textarea></p>
+            <p><button class="button1" onclick="location.href='carsearchresults.html'">検索</button></p>
+            <br clear="all">
+
+        </div>
+        <div class="main2">
+            <h2>旅行先をご提案するコラムも公開中！</h2>
+            <h3>2021.02.04 更新 <a href="carcolumn2.html">海風を感じるおしゃれタウン〜みなとみらい〜</a></h3>
+            <h3>2021.02.03 更新 <a href="carcolumn1.html">冬の日光中禅寺湖を走ろう！</a></h3>
+
+        </div>
+
+        <div class="footer">
+            <h2>関連サイトも是非ご覧ください</h2>
+            <h3>国内ツアーの検索は<a href="https://www.his-j.com/kokunai/Default.aspx">こちら</a>から！</h3>
+            <h3>ホテルの検索は<a href="hoteltoppage.html">こちら</a>から！</h3>
+        </div>
+    </body>
+</html>

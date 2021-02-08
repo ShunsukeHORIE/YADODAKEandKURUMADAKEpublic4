@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charaset="UTF=8">
+        <title>HIS ホテル予約サイト 宿-DAKE-</title>
+        <meta name="description" content="HISホテル専門予約サイト「宿-DAKE-」お客様のご希望に合わせて、最適なホテルをご提案いたします。">
+        <link rel="icon" type="image/ico" href="images/hotel_favicon.ico">
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+        <!-- CSS -->
+        <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>宿-DAKE-(首都圏版)</h1>
+        </div>
+
+        <div class="main1">
+            <img src="images/YAMA_DSC7115_TP_V4.jpg" alt="温泉" border="0" align="right">
+            <h2>条件を入力してホテルを検索！</h2>
+            <h3>出発日</h3>
+                <select name="出発年">
+                    <option value="2021年">2021年</option>
+                    <option value="2022年">2022年</option>
+                </select>
+                <select name="出発月">
+                    <option value="1月">1月</option>
+                    <option value="2月">2月</option>
+                    <option value="3月">3月</option>
+                    <option value="4月">4月</option>
+                    <option value="5月">5月</option>
+                    <option value="6月">6月</option>
+                    <option value="7月">7月</option>
+                    <option value="8月">8月</option>
+                    <option value="9月">9月</option>
+                    <option value="10月">10月</option>
+                    <option value="11月">11月</option>
+                    <option value="12月">12月</option>
+                </select>
+                <select name="出発月">
+                    <option value="1日">1日</option>
+                    <option value="2日">2日</option>
+                    <option value="3日">3日</option>
+                    <option value="4日">4日</option>
+                    <option value="5日">5日</option>
+                    <option value="6日">6日</option>
+                    <option value="7日">7日</option>
+                    <option value="8日">8日</option>
+                    <option value="9日">9日</option>
+                    <option value="10日">10日</option>
+                    <option value="11日">11日</option>
+                    <option value="12日">12日</option>
+                    <option value="13日">13日</option>
+                    <option value="14日">14日</option>
+                    <option value="15日">15日</option>
+                    <option value="16日">16日</option>
+                    <option value="17日">17日</option>
+                    <option value="18日">18日</option>
+                    <option value="19日">19日</option>
+                    <option value="20日">20日</option>
+                    <option value="21日">21日</option>
+                    <option value="22日">22日</option>
+                    <option value="23日">23日</option>
+                    <option value="24日">24日</option>
+                    <option value="25日">25日</option>
+                    <option value="26日">26日</option>
+                    <option value="27日">27日</option>
+                    <option value="28日">28日</option>
+                    <option value="29日">29日</option>
+                    <option value="30日">30日</option>
+                    <option value="31日">31日</option>
+                </select>
+            <h3>滞在日数</h3>
+                <select name="滞在日数">
+                    <option value="1泊">1泊</option>
+                    <option value="2泊">2泊</option>
+                    <option value="3泊">3泊</option>
+                    <option value="4泊">4泊</option>
+                    <option value="5泊">5泊</option>
+                    <option value="6泊以上">6泊以上</option>
+                </select>
+            <h3>宿泊エリア</h3>
+                <select name="エリア">
+                    <option value="茨城">茨城</option>
+                    <option value="栃木">栃木</option>
+                    <option value="群馬">群馬</option>
+                    <option value="埼玉">埼玉</option>
+                    <option value="千葉">千葉</option>
+                    <option value="東京" selected>東京</option>
+                    <option value="神奈川">神奈川</option>
+                </select>
+            <h3>条件を選択(複数可)</h3>
+                <p><label><input type="checkbox" name="needs" value="ビジネスホテル・リーズナブルシティホテル"> ビジネスホテル・リーズナブルシティホテル</label>
+                <label><input type="checkbox" name="needs" value="ラグジュアリーホテル"> ラグジュアリーホテル</label></p>
+                <p><label><input type="checkbox" name="needs" value="リゾートホテル(テーマパーク含む)"> リゾートホテル(テーマパーク含む)</label>
+                <label><input type="checkbox" name="needs" value="温泉宿"> 温泉宿</label>
+                <label><input type="checkbox" name="needs" value="その他"> その他</label></p>
+            <h3>部屋利用人数</h3>
+                <select name="ルームカテゴリー">
+                    <option value="1名1室">1名1室</option>
+                    <option value="2・3名1室">2・3名1室</option>
+                    <option value="4名以上">4名以上</option>
+                </select>
+            <h3>キーワード</h3>
+            <p><textarea name="keywords" rows="1" placeholder="例：〇〇ホテル"></textarea></p>
+            <p><button class="button1" onclick="location.href='hotelsearchresults.html'">検索</button></p>
+            <br clear="all">
+        </div>
+
+        <div class="main2">
+            <h2>旅行先をご提案するコラムも公開中！</h2>
+            <h3>2021.02.01 更新 <a href="hotelcolumn2.html">箱根温泉〜ノスタルジックな大正ロマンの温泉街〜</a></h3>
+            <h3>2021.01.08 更新 <a href="hotelcolumn1.html">お部屋でゆっくりできる露天風呂付き客室特集！</a></h3>
+        </div>
+
+        <div class="footer">
+            <h2>関連サイトも是非ご覧ください</h2>
+            <h3>国内ツアーの検索は<a href="https://www.his-j.com/kokunai/Default.aspx">こちら</a>から！</h3>
+            <h3>レンタカーの検索は<a href="cartoppage.html">こちら</a>から！</h3>
+        </div>
+    </body>
+</html>

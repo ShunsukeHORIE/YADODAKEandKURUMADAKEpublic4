@@ -1,0 +1,109 @@
+@charaset "UTF-8";
+
+/* 共通設定 */
+body{
+  background-color: #d7cebb;
+  font-family: "Lucida Grande";
+  letter-spacing: 1px;
+}
+
+.header{
+  color: #ffbf1f;
+  background-color: #00a5dd;
+  height: 100px;
+  padding: 15px 0 15px;
+  border: solid 10px #ffc06e;
+}
+
+.footer {
+  background-color: #00a5dd;
+  border: solid 10px #ffc06e;
+}
+
+/* toppage */
+
+img {
+  width:100%;
+  max-width: 1000px;
+  height: auto;
+}
+
+.main1 {
+  background: #fff8e8;
+  border: solid 10px #ffc06e;
+}
+
+.c-btnsubmit {
+  color: #fff;
+  background-color: #ffbf1f;
+  width: 200px;
+  height: 40px;
+  margin-left: 0;
+}
+
+p, h1, h2, h3, h4, select {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+label, input[type='radio'] {
+  cursor: pointer;
+}
+
+.button1 {
+  color: #fff;
+  background-color: #ffbf1f;
+  width: 200px;
+  height: 40px;
+  margin-left: 0;
+}
+
+
+.main2 {
+  background-color: #fff8e8;
+  text-align: center;
+  border: solid 10px #ffc06e;
+}
+
+/* result page */
+
+.results {
+  background-color: #00a5dd;
+
+}
+
+.box_css {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #232323;
+    background: #fff8e8;
+    border-left: solid 10px #ffc06e;
+}
+
+.button2 {
+  color: #fff;
+  background-color: #ffbf1f;
+  width: 400px;
+  height: 80px;
+  margin-left: 0;
+}
+
+.photo {
+  width:100%;
+  max-width: 450px;
+  height: auto;
+}
+
+/* column page*/
+
+.article {
+  background-color: #fff8e8;
+  text-align: center;
+  border: solid 10px #ffc06e;
+  padding: 50px 200px;
+
+}
+
+p {
+  text-align: justify;
+}
